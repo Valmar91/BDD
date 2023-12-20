@@ -20,9 +20,8 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.9.0'
     // библиотека com.codeborne:selenide используется при построении проекта с использованием Selenide
     testImplementation 'com.codeborne:selenide:6.17.2'
-    testImplementation 'com.github.javafaker:javafaker:1.0.2'
-    testImplementation 'io.rest-assured:rest-assured:5.3.1'
     testImplementation 'com.google.code.gson:gson:2.10.1'
+    testImplementation 'junit:junit:4.13.1'
     testCompileOnly 'org.projectlombok:lombok:1.18.24'
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.24'
 
